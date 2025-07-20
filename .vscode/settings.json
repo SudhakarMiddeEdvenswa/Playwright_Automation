@@ -1,0 +1,9 @@
+{
+  "github.copilot.chat.experimental.modelContextProtocol.servers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp"],
+      "env": {}
+    }
+  }
+}
