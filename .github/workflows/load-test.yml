@@ -3,10 +3,9 @@ name: Load Testing Pipeline
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-      - develop
-
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
 jobs:
   load_test:
     name: Run JMeter Load Test
